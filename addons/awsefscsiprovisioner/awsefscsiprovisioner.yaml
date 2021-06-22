@@ -8,7 +8,7 @@ metadata:
   annotations:
     catalog.kubeaddons.mesosphere.io/addon-revision: "0.8.0-1"
     appversion.kubeaddons.mesosphere.io/awsebscsiprovisioner: "0.8.0"
-    values.chart.helm.kubeaddons.mesosphere.io/awsebscsiprovisioner: "https://github.com/kubernetes-sigs/aws-efs-csi-driver/blob/e7cebc79b59915e9aa8c44b1ed58c8af5e54c826/charts/aws-efs-csi-driver/values.yaml"
+    values.chart.helm.kubeaddons.mesosphere.io/awsefscsiprovisioner: "https://github.com/kubernetes-sigs/aws-efs-csi-driver/blob/e7cebc79b59915e9aa8c44b1ed58c8af5e54c826/charts/aws-efs-csi-driver/values.yaml"
 spec:
   namespace: kube-system
   kubernetes:
@@ -20,7 +20,8 @@ spec:
     version: 0.5.0
     chart: awsefscsiprovisioner
     #repo: https://mesosphere.github.io/charts/stable
-    repo: https://kubernetes-sigs.github.io/aws-efs-csi-driver/charts
+    #repo: https://kubernetes-sigs.github.io/aws-efs-csi-driver/charts
+    repo: https://github.com/kubernetes-sigs/aws-efs-csi-driver/tree/master/charts
     values: |
       ---
       resizer:
