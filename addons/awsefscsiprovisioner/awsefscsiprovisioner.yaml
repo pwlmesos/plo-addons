@@ -21,7 +21,7 @@ spec:
     chart: awsefscsiprovisioner
     #repo: https://mesosphere.github.io/charts/stable
     #repo: https://kubernetes-sigs.github.io/aws-efs-csi-driver/charts
-    repo: https://github.com/kubernetes-sigs/aws-efs-csi-driver/tree/master/charts
+    repo: https://pwlmesos.github.io/addons-chart/awsefscsiprovisioner
     values: |
       ---
       resizer:
