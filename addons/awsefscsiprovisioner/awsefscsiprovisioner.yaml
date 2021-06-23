@@ -17,11 +17,11 @@ spec:
     - name: aws
       enabled: true
   chartReference:
-    version: 0.5.0
+    version: 2.1.2
     chart: awsefscsiprovisioner
     #repo: https://mesosphere.github.io/charts/stable
     #repo: https://kubernetes-sigs.github.io/aws-efs-csi-driver/charts
-    repo: https://pwlmesos.github.io/addons-chart/awsefscsiprovisioner
+    repo: https://pwlmesos.github.io/addons-chart
     values: |
       ---
       resizer:
