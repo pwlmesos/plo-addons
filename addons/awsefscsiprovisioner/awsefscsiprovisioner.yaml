@@ -18,7 +18,7 @@ spec:
       enabled: true
   chartReference:
     version: 2.1.2
-    chart: awsefscsiprovisioner
+    chart: aws-efs-csi-provisioner
     #repo: https://mesosphere.github.io/charts/stable
     #repo: https://kubernetes-sigs.github.io/aws-efs-csi-driver/charts
     repo: https://pwlmesos.github.io/addons-chart
