@@ -2,7 +2,7 @@
 awsefscsiprovisioner:
   display_name: awsefscsiprovisioner
   description: awsefscsiprovisioner
-  logo: awsefscsiprovisioner/logo.svg
+  logo: awsefscsiprovisioner/amazon-efs.svg
   category: other
   overview: awsefscsiprovisioner/overview.md
   resources:
