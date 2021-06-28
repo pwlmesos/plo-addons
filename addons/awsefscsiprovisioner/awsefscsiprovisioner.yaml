@@ -7,7 +7,6 @@ metadata:
     kubeaddons.mesosphere.io/provides: storageclass
   annotations:
     catalog.kubeaddons.mesosphere.io/addon-revision: "0.8.0-1"
-    appversion.kubeaddons.mesosphere.io/awsebscsiprovisioner: "0.8.0"
     values.chart.helm.kubeaddons.mesosphere.io/awsefscsiprovisioner: "https://github.com/kubernetes-sigs/aws-efs-csi-driver/blob/e7cebc79b59915e9aa8c44b1ed58c8af5e54c826/charts/aws-efs-csi-driver/values.yaml"
 spec:
   namespace: kube-system
@@ -24,10 +23,6 @@ spec:
     repo: https://pwlmesos.github.io/addons-chart
     values: |
       ---
-      resizer:
-        enabled: true
-      snapshotter:
-        enabled: true
       provisioner:
         enableVolumeScheduling: true
       storageclass:
