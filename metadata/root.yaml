@@ -10,15 +10,3 @@ awsefscsiprovisioner:
       - type: support
         title: Submit a Support Request
         link: https://d2iq.com/services-and-support
-
-# awsebsprovisioner:
-#   display_name: awsebsprovisioner
-#   description: awsebsprovisioner
-#   logo: awsebsprovisioner/logo.svg
-#   category: other
-#   overview: awsebsprovisioner/overview.md
-#   resources:
-#     links:
-#       - type: support
-#         title: Submit a Support Request
-#         link: https://d2iq.com/services-and-support
