@@ -76,4 +76,15 @@ spec:
   ref: "branch-to-pull-from"       # here it would be "main"
 ```
 
-Add this configuration to teh kommander cluster in the correct namespace.
+Add this configuration to the kommander cluster in the correct namespace.
+
+
+
+## Debug 
+
+If addon doesn't deploy, examine the logs of the kubeaddons controller pod in the kubeaddons namespace
+
+example
+```bash
+> k logs -n kubeaddons kubeaddons-controller-manager-7d467cfb49-v7mtn | grep 'efs'
+```

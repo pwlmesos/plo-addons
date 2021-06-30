@@ -1,12 +1,12 @@
 ---
 awsefscsiprovisioner:
-  display_name: awsefscsiprovisioner
-  description: awsefscsiprovisioner
-  logo: awsefscsiprovisioner/amazon-efs.svg
+  display_name: awsefscsiprovisioner       # Name for cluster yaml Reference
+  description: awsefscsiprovisioner        
+  logo: awsefscsiprovisioner/amazon-efs.svg  # Logo for UI
   category: other
-  overview: awsefscsiprovisioner/overview.md
-  resources:
+  overview: awsefscsiprovisioner/overview.md # Description of Addon
+  resources:                                 # Extra data, here DiQ links support
     links:
       - type: support
         title: Submit a Support Request
-        link: https://d2iq.com/services-and-support
+        link: plogan@d2iq.com
